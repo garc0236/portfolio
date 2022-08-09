@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    margin:0;
+    padding: 0;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+}
+.navbar{
+    display: flex;
+    justify-content: end;
+    margin: 0;
+}
+
+.navbar li{
+    align-items:center;
+}
