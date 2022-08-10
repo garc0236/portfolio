@@ -72,3 +72,17 @@ table {
     margin:5px;
 }
 
+.banner{
+    max-width: 100%;
+    
+}
+.ibanner{
+    max-width: 100%;
+}
+
+.wgraphy {
+    position: absolute;
+    margin-left: 200px;
+    
+
+}
