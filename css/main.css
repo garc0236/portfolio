@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 
-
+html{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 .header {
     background-color: black;
 }
@@ -70,9 +72,11 @@ table {
 
 .navbar li a{
     margin:5px;
+    text-decoration: none;
+    color: white;
+    
 }
 
-/*.ibanner{
-    max-width: 100%;
-       
+.ibanner{
+    max-width: 100%;       
 }
