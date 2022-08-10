@@ -74,15 +74,15 @@ table {
 
 .banner{
     max-width: 100%;
+    box-sizing: content-box;
     
 }
 .ibanner{
     max-width: 100%;
 }
 
-.wgraphy {
+.wgraphy{
     position: absolute;
-    margin-left: 200px;
+    margin:50px 250px 80px 180px;
     
-
 }
