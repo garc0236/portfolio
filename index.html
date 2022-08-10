@@ -11,7 +11,12 @@
     <header>
         <div class="header">                    
             <nav class="navigation">
-                <img class="logo" src="images/wgraphy-logo-48_x_48.png" alt="wgraphy logo">               
+                <picture>
+                    <source srcset="images/wgraphy-logo-180_x_180.png" media="(min-width:780px">
+                    <source srcset="images/wgraphy-logo-90_x_90.png" media="(min-width:390px">
+                    <source srcset="images/wgraphy-logo-48_x_48.png" media="(min-width:48px">
+                    <img class="logo" src="images/wgraphy-logo-48_x_48.png" alt="wgraphy logo">
+                </picture>               
                 <ul class="navbar">
                     <li><a href="#" class="home">Home</a></li>
                     <li><a href="#" class="work">Work</a></li>
