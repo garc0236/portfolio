@@ -71,12 +71,34 @@ html{
 }
 
 .navbar li a{
-    margin:5px;
+    margin-right:10px;
     text-decoration: none;
     color: white;
+    font-size: 0.8rem;
     
 }
 
 .ibanner{
     max-width: 100%;       
 }
+
+@media screen and (min-width:390px){
+    .navbar{
+        margin-top: 35px;
+    }
+    .navbar li a{
+        font-size: 1rem;
+        margin-right:10px;
+    }
+}
+
+@media screen and (min-width:780px){
+    .navbar{
+        margin-top: 70px;
+    }
+    .navbar li a{
+        margin-right:10px;
+        font-size: 1.5rem;
+    }
+}
+
