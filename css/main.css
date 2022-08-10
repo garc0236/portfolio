@@ -75,12 +75,35 @@ html{
     text-decoration: none;
     color: white;
     font-size: 0.8rem;
-    
+    transform: scale(1);
+    transition-duration: 1s;   
 }
 
+/*---NAV ANIMATION AND ACCESSIBILITY----*/
+.navbar li a:hover{
+    transform: scale(2);
+    transition-duration: 0.5s;
+    font-weight:700;
+    font-size: 1rem;
+    text-decoration: underline #54231e 2px;    
+}
+.navbar li a:focus{
+    color: #009FE3;
+    font-size: 1rem;    
+    text-decoration: underline white 1px;
+}
+.navbar li a:active{
+    color:#385c85;
+    font-weight: bolder;
+    text-decoration: underline #54231e 2px;
+}
+/*--------------------*/
 .ibanner{
     max-width: 100%;       
 }
+
+
+/*----SCREEN RESIZES----*/
 
 @media screen and (min-width:390px){
     .navbar{
@@ -89,6 +112,25 @@ html{
     .navbar li a{
         font-size: 1rem;
         margin-right:20px;
+        transform: scale(1);
+        transition-duration: 1s;        
+    }
+    .navbar li a:hover{
+        transform: scale(2);
+        transition-duration: 0.5s;
+        font-weight:700;
+        font-size: 1.2rem;
+        text-decoration: underline #54231e 2px;
+    }
+    .navbar li a:focus{
+        color: #009FE3;
+        font-size: 1.2rem;    
+        text-decoration: underline white 1px;
+    }
+    .navbar li a:active{
+        color:#385c85;
+        font-weight: bolder;
+        text-decoration: underline #54231e 2px;
     }
 }
 
@@ -99,6 +141,25 @@ html{
     .navbar li a{
         margin-right:20px;
         font-size: 1.5rem;
+        transform: scale(1);
+        transition-duration: 1s;        
+    }
+    .navbar li a:hover{
+        transform: scale(2);
+        transition-duration: 0.5s;
+        font-weight:700;
+        font-size: 1.8rem;
+        text-decoration: underline #54231e 2px;
+    }
+    .navbar li a:focus{
+        color: #009FE3;
+        font-size: 1.8rem;    
+        text-decoration: underline white 1px;
+    }
+    .navbar li a:active{
+        color:#385c85;
+        font-weight: bolder;
+        text-decoration: underline #54231e 2px;
     }
 }
 
