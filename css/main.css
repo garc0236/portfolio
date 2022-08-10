@@ -97,7 +97,7 @@ html{
     font-weight: bolder;
     text-decoration: underline #54231e 2px;
 }
-/*--------------------*/
+/*--------Wgraphy banner------------*/
 .ibanner{
     max-width: 100%; 
     margin-bottom: 0;          
@@ -154,7 +154,7 @@ html{
     top: 30%;
 }
 
-/*---MORE Button--*/
+/*---"MORE" Button--*/
 .bmore{
   display: flex;
   justify-content: center;  
