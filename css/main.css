@@ -154,6 +154,23 @@ html{
     top: 30%;
 }
 
+/*---MORE Button--*/
+.bphotography{
+  display: flex;
+  justify-content: center;  
+}
+.more{
+    text-decoration: none;
+    background-color: #385C85;
+    border: solid black 3px;
+    border-radius: 150px;
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 70%;
+    width: 80px;        
+}
 
 
 
