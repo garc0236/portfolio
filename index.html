@@ -14,12 +14,13 @@
     <header>
         <div class="header">                    
             <nav class="navigation">
-                <picture>
-                    <source srcset="images/wgraphy-logo-180_x_180.png" media="(min-width:780px">
-                    <source srcset="images/wgraphy-logo-90_x_90.png" media="(min-width:390px">
-                    <source srcset="images/wgraphy-logo-48_x_48.png" media="(min-width:48px">
-                    <img class="logo" src="images/wgraphy-logo-48_x_48.png" alt="wgraphy logo">
-                </picture>               
+                <img srcset="
+                images/wgraphy-logo-48_x_48.png 390w,
+                images/wgraphy-logo-90_x_90.png 780w,
+                images/wgraphy-logo-180_x_180.png 1560w" sizes="
+                (max-width: 390px) 390px,
+                (max-width: 780px) 780px,
+                (max-width: 1560px) 1560px" src="images/wgraphy-logo-48_x_48.png" alt="wgraphy logo">                              
                 <ul class="navbar">
                     <li><a href="#" class="home">Home</a></li>
                     <li><a href="#" class="work">Work</a></li>

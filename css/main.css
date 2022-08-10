@@ -88,7 +88,7 @@ html{
     }
     .navbar li a{
         font-size: 1rem;
-        margin-right:10px;
+        margin-right:20px;
     }
 }
 
@@ -97,7 +97,7 @@ html{
         margin-top: 70px;
     }
     .navbar li a{
-        margin-right:10px;
+        margin-right:20px;
         font-size: 1.5rem;
     }
 }
