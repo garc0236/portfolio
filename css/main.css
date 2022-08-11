@@ -172,12 +172,17 @@ html{
     width: 80px;
     padding: 4px;        
 }
-/*---Title contact form---*/
+/*---Title contact form---*//*CONTACT FORM*/
+
+.cform{
+    background-color:rgba(0, 0, 0, 0.9);    
+}
 .tcontact{
     font-size: 1.5rem;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
+    color: white;
 }
 /*---Contact form name part---*/
 .name{
@@ -188,7 +193,8 @@ html{
     color:white;
     border-color: #385C85;
     font-size: 0.8rem;
-    font-family:'Montserrat Alternates', sans-serif;    
+    font-family:'Montserrat Alternates', sans-serif;
+    margin: 10px;    
 }
 /*---Contact form email part---*/
 .email{
@@ -199,7 +205,8 @@ html{
     color:white;
     border-color: #385C85;
     font-size: 0.8rem;
-    font-family:'Montserrat Alternates', sans-serif;    
+    font-family:'Montserrat Alternates', sans-serif;
+    margin: 10px;    
 }
 /*---Contact form phone part---*/
 .phone{
@@ -210,7 +217,8 @@ html{
     color:white;
     border-color: #385C85;
     font-size: 0.8rem;
-    font-family:'Montserrat Alternates', sans-serif;    
+    font-family:'Montserrat Alternates', sans-serif;
+    margin: 10px;    
 }
 /*---Contact form message part---*/
 .message{
@@ -221,7 +229,8 @@ html{
     color:white;
     border-color: #385C85;
     font-size: 0.8rem;
-    font-family:'Montserrat Alternates', sans-serif;    
+    font-family:'Montserrat Alternates', sans-serif;
+    margin: 10px;        
 }
 /*---Contact form button---*/
 .fbutton{
@@ -238,6 +247,53 @@ html{
     margin:20px;
     width: 6rem;
 }
+
+/*----footer part----*/
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+.smedia{
+    display: flex;
+}
+
+.logoinsta{
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 4px;
+}
+
+.logotwit{
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 4px;
+
+}
+
+.logoface{
+    margin-right: 15px;
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 40px;
+    padding: 4px;
+}
+
+.tcopy{
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;    
+}
+
+.tcopy::before{
+    content: "\00A9";
+}
+
 
 
 /*----SCREEN RESIZES----*/
