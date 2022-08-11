@@ -169,7 +169,8 @@ html{
     position: absolute;
     text-align: center;
     top: 70%;
-    width: 80px;        
+    width: 80px;
+    padding: 4px;        
 }
 /*---Title contact form---*/
 .tcontact{
@@ -189,7 +190,54 @@ html{
     font-size: 0.8rem;
     font-family:'Montserrat Alternates', sans-serif;    
 }
-
+/*---Contact form email part---*/
+.email{
+    text-align: center;
+}
+.bemail{
+    background-color: #385C85;
+    color:white;
+    border-color: #385C85;
+    font-size: 0.8rem;
+    font-family:'Montserrat Alternates', sans-serif;    
+}
+/*---Contact form phone part---*/
+.phone{
+    text-align: center;
+}
+.bphone{
+    background-color: #385C85;
+    color:white;
+    border-color: #385C85;
+    font-size: 0.8rem;
+    font-family:'Montserrat Alternates', sans-serif;    
+}
+/*---Contact form message part---*/
+.message{
+    text-align: center;
+}
+.bmessage{
+    background-color: #385C85;
+    color:white;
+    border-color: #385C85;
+    font-size: 0.8rem;
+    font-family:'Montserrat Alternates', sans-serif;    
+}
+/*---Contact form button---*/
+.fbutton{
+    text-align: center;
+}
+.button{
+    background-color: #385C85;
+    color: white;
+    border-color: #385C85;
+    border-radius: 200px;
+    font-size: 0.8rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 5px;
+    margin:20px;
+    width: 6rem;
+}
 
 
 /*----SCREEN RESIZES----*/
