@@ -52,11 +52,12 @@ html{
 }
 .header {
     background-color: black;
+    width: 100%;
 }
 
 .logo{
-    max-width: 100%;
-    /*position:absolute;*/
+    width: 100%;
+    
 }
 
 .navigation {
@@ -68,6 +69,7 @@ html{
     display: flex;
     justify-content: space-between;
     margin-top: 12px;
+    align-content: flex-start;
 }
 
 .navbar li a{
@@ -99,7 +101,7 @@ html{
 }
 /*--------Wgraphy banner------------*/
 .ibanner{
-    max-width: 100%; 
+    width: 100%; 
     margin-bottom: 0;          
 }
 .pbanner{
@@ -111,7 +113,7 @@ html{
 .iphotography{
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 .tphotography{
@@ -126,7 +128,7 @@ html{
 .iwebdev{
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 .twebdev{
@@ -142,7 +144,7 @@ html{
 .idesign{
     margin: 0 auto;
     padding: 0;
-    max-width: 100%;
+    width: 100%;
     position: relative;
 }
 .tdesign{
@@ -175,7 +177,8 @@ html{
 /*---Title contact form---*//*CONTACT FORM*/
 
 .cform{
-    background-color:rgba(0, 0, 0, 0.9);    
+    background-color:rgba(0, 0, 0, 0.9);
+    width: 100%;    
 }
 .tcontact{
     font-size: 1.5rem;
@@ -230,7 +233,8 @@ html{
     border-color: #385C85;
     font-size: 0.8rem;
     font-family:'Montserrat Alternates', sans-serif;
-    margin: 10px;        
+    margin: 10px;
+    height: 70px;        
 }
 /*---Contact form button---*/
 .fbutton{
@@ -325,6 +329,7 @@ footer{
         font-weight: bolder;
         text-decoration: underline #54231e 2px;
     }
+        
 }
 
 @media screen and (min-width:780px){
