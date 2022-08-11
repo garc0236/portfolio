@@ -171,7 +171,24 @@ html{
     top: 70%;
     width: 80px;        
 }
-
+/*---Title contact form---*/
+.tcontact{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+/*---Contact form name part---*/
+.name{
+    text-align: center;
+}
+.bname{
+    background-color: #385C85;
+    color:white;
+    border-color: #385C85;
+    font-size: 0.8rem;
+    font-family:'Montserrat Alternates', sans-serif;    
+}
 
 
 
